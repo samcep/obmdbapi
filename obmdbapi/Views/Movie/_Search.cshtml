@@ -1,0 +1,11 @@
+﻿@model Filter
+@{
+}
+
+<form class="mb-4" method="post" asp-action="getMoviesByTerm" asp-controller="Movie">
+    <div class="d-flex form-group"> 
+        <a  asp-action="Index" class="btn btn-secondary"><i class="bi bi-house"></i></a>
+        <input type="text" asp-for="Term" class="form-control bg-dark text-white w-100" placeholder="Buscar" />
+        <button type="submit" class=" btn btn-success m-auto"><i class="bi bi-search"></i></button>
+    </div>
+</form>

@@ -1,0 +1,54 @@
+﻿@model MovieDetail
+
+<div class="w-100 p-2  mt-1 bg-dark text-white">
+    <div class="row">
+        
+        <div class="col-4">
+            <div class="d-flex flex-column"> 
+
+             <img  src="@Model.Poster" class=""/> 
+            </div>
+        </div>
+        <div class="col-6">
+            <h2 class=" text-center font-weight-bold">@Model.Title</h2>
+            <div class="mb-2">
+                <span class="text-success"> Categoria: @Model.Type</span>
+            </div>
+            <div class="mb-2">
+                <span class="text-success"> Lenguaje: @Model.Language</span>
+            </div>
+            <div class="mb-2"> 
+            <span class="text-dark"> Fecha: @Model.Released</spa>
+
+            </div>
+            <div>
+                <span class="text-warning"><i class="bi bi-star-fill"></i> @Model.ImdbRating</span>
+
+            </div>
+
+            <div class="mt-4"> 
+ 
+            <p class="">
+                @Model.Plot
+            </p>
+            </div>
+            <div class="mt-4">
+
+                <p>
+                    <span class="font-weight-bold">Director: </span> @Model.Director
+                </p>
+            </div>
+            <div class="mt-4">
+
+                <p>
+                    <span class="font-weight-bold">Actores: </span> @Model.Actors
+                </p>
+            </div>
+
+            <a asp-action="showForCurrentFilter" class="btn btn-outline-light">Regresar</a>
+        </div>
+
+       
+    </div>
+</div>
+

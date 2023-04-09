@@ -1,0 +1,25 @@
+﻿@model  IEnumerable<Movie>;
+@{
+    Filter filter  = new Filter();
+   
+}
+
+<h2 class="text-center fw-bold mb-4">Movie App</h2>
+
+@if(Model is null) {
+<div class="Container">
+      
+    <p class="text-center">no hay nada filtrado</p>
+        <partial name="_Search.cshtml" model="filter" />
+</div>
+}else{ 
+    
+    <div class="contianer">
+        <div  class="row">
+            <partial name="_Search.cshtml" model="filter" />
+       
+            <partial name="_Movie" model="Model" />
+
+        </div>
+    </div>
+}
