@@ -22,6 +22,7 @@ namespace obmdbapi.Controllers
 
         public  async Task<IActionResult> Index()
         {
+            Global.HistoryFilter?.Clear();
             SearchResponse searchResponse = await respositoryMovie.getMovies("");
             if (searchResponse.Search is null)
             {
