@@ -17,3 +17,6 @@ Este ApiKey se debe configurar en el archivo del proyecto llamando appsetting.De
 ![appdevelopment](https://user-images.githubusercontent.com/79492688/230802261-1b266dd6-3237-4402-b49f-ecdaa59fbb71.png)
 
 Luego de Realizar estos pasos ya podemos tener funcionando el proyecto!
+
+
+**NOTA: En caso de presentar inconvenientes en la visualización de las imágenes, esta puede deberse a configuración de la red con el proxy o del equipo, en donde bloquea algunos accesos a diferentes sitios, por lo tanto se sugiere se realice la conexión por medio de datos móviles. **
