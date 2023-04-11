@@ -19,4 +19,4 @@ Este ApiKey se debe configurar en el archivo del proyecto llamando appsetting.De
 Luego de Realizar estos pasos ya podemos tener funcionando el proyecto!
 
 
-**NOTA: En caso de presentar inconvenientes en la visualización de las imágenes, esta puede deberse a configuración de la red con el proxy o del equipo, en donde bloquea algunos accesos a diferentes sitios, por lo tanto se sugiere se realice la conexión por medio de datos móviles. **
+**NOTA:**  **En caso de presentar inconvenientes en la visualización de las imágenes, esta puede deberse a configuración de la red con el proxy o del equipo, en donde bloquea algunos accesos a diferentes sitios, por lo tanto se sugiere se realice la conexión por medio de datos móviles. **
